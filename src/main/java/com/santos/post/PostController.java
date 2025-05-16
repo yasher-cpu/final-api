@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = {"http://localhost:5173", "https://finals-ui-a8m2.onrender.com"})
 @RequestMapping("/santos/posts")
 public class PostController {
 
